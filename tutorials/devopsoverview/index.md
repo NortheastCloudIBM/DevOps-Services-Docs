@@ -80,6 +80,7 @@ You can work with your app's code in many ways. For example, with auto-deploy, y
 2. Make sure that the **Populate the repo with the starter app package and enable the Build & Deploy pipeline** check box is selected.
 
 ![Create Git repo dialog](images/bm-create-git-repo_NEW.png)
+
 You created a Git repository, populated it with the example code, and deployed the app.
 
 ![Git repo success message dialog](/tutorials/jazzeditor/images/bm-git-repo-success-msg_NEW.png)
