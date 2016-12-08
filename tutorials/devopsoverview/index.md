@@ -78,11 +78,14 @@ You can work with your app's code in many ways. For example, with auto-deploy, y
 ![Add Git button](images/bm-add-git-integration_NEW.png)
 
 2. Make sure that the **Populate the repo with the starter app package and enable the Build & Deploy pipeline** check box is selected.
+
 ![Create Git repo dialog](images/bm-create-git-repo_NEW.png)
 You created a Git repository, populated it with the example code, and deployed the app.
+
 ![Git repo success message dialog](/tutorials/jazzeditor/images/bm-git-repo-success-msg_NEW.png)
 
-3. Click **View App** to the right of your apps name to view the deployed app, or click **EDIT CODE** at the bottom-right of the page to start working with your code. Your new project opens in the web integrated development environment (Web IDE).  
+3. Click **View App** to the right of your apps name to view the deployed app, or click **EDIT CODE** at the bottom-right of the page to start working with your code. Your new project opens in the web integrated development environment (Web IDE).
+
 ![CODE button](images/view-running-app.png)
 ![CODE button](images/edit-code_view-url.png)
 
