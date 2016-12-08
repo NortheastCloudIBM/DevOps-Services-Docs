@@ -74,6 +74,7 @@ Now that your app is running, you can see and modify the code by using DevOps Se
 You can work with your app's code in many ways. For example, with auto-deploy, you can modify the code that runs in your app by pushing your changes to a Git repository. You can auto-deploy your code if you use the Build & Deploy capabilities of DevOps Services.
 
 1. To enable auto-deploy, go to your app's **Overview** page and click **Click here** in the Continuous Delivery box. A Git repository is created and is populated with example code and a deployed app. You might be prompted to enter your password to verify that DevOps Services can act on your behalf. 
+
 ![Add Git button](images/bm-add-git-integration_NEW.png)
 
 2. Make sure that the **Populate the repo with the starter app package and enable the Build & Deploy pipeline** check box is selected.
