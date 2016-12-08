@@ -49,7 +49,7 @@ Create a sample app, add a Git repository for source control, edit in Live Edit 
     
 [Sign in to Bluemix](https://www.ng.bluemix.net). The Dashboard opens, which is where Adam's video begins.
 
-![Bluemix Dashboard](/images/bm-home_NEW.png)
+![Bluemix Dashboard](images/bm-home_NEW.png)
 
 <!-- The Dashboard shows an overview of the active Bluemix space for your organization. 
 By default, the space is `dev` and the organization is the user name of the person who created the project. 
@@ -65,7 +65,7 @@ If you create more organizations or spaces in Bluemix, use the same ones as you 
 
 The **Getting Started** page displays while your new app is starting.  After a moment, the app status will change to **Your app is running**. You can see the app run by clicking **Overview** in the left navigation bar.
 
-<!--![Bluemix Application tile](/images/bm-app-panel_NEW.png) 
+<!--![Bluemix Application tile](images/bm-app-panel_NEW.png) 
 Now that your app is running, you can see and modify the code by using DevOps Services.-->
 
 <a name='git_integration_and_autodeployment'></a>
@@ -74,10 +74,10 @@ Now that your app is running, you can see and modify the code by using DevOps Se
 You can work with your app's code in many ways. For example, with auto-deploy, you can modify the code that runs in your app by pushing your changes to a Git repository. You can auto-deploy your code if you use the Build & Deploy capabilities of DevOps Services.
 
 1. To enable auto-deploy, go to your app's **Overview** page and click **Click here** in the Continuous Delivery box. A Git repository is created and is populated with example code and a deployed app. You might be prompted to enter your password to verify that DevOps Services can act on your behalf. 
-![Add Git button](/bm-add-git-integration_NEW.png)
+![Add Git button](images/bm-add-git-integration_NEW.png)
 
 2. Make sure that the **Populate the repo with the starter app package and enable the Build & Deploy pipeline** check box is selected.
-![Create Git repo dialog](/images/bm-create-git-repo_NEW.png)
+![Create Git repo dialog](images/bm-create-git-repo_NEW.png)
 You created a Git repository, populated it with the example code, and deployed the app.
 ![Git repo success message dialog](/tutorials/jazzeditor/images/bm-git-repo-success-msg_NEW.png)
 
