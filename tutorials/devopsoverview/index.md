@@ -26,7 +26,7 @@ Learn how to use IBM&reg; Bluemix&reg; DevOps Services to plan, code, build, and
 <a name='prereq'></a>
 ##Before you begin
 
-To do this tutorial, you need a Bluemix account. Bluemix accounts provide access to everything you need to develop, track, plan, and deploy apps. You can sign up for a free 30-day trial. 
+To complete this tutorial, you need a Bluemix account. Bluemix accounts provide access to everything you need to develop, track, plan, and deploy apps. You can sign up for a free 30-day trial. 
 
 <h5> </h5>
 <div class="container-fluid small_bottom_space">
@@ -57,13 +57,13 @@ For example, if `bob@example.com` logs in to Bluemix for the first time, the act
 is `bob@example.com`.
 If you create more organizations or spaces in Bluemix, use the same ones as you follow the tutorials. Use the default selections. -->
 
-1. Click **CREATE APP** and then click **WEB**.  
+1. Click **CREATE APP** and then click **Cloud Foundry Apps**.  
 
-2. Click **SDK for Node.js** and then click **CONTINUE**.
+2. Click **SDK for Node.js**.
 
-3. Name your app and then click **FINISH**. The name is a unique URL where you access your app. 
+3. Name your app and then click **CREATE**. The name is a unique URL where you access your app. 
 
-After a moment, the app starts. The app's Dashboard opens. You can see the app run by clicking **Overview** in the left navigation bar.
+The **Getting Started** page displays while your new app is starting.  After a moment, the app status will change to **Your app is running**. You can see the app run by clicking **Overview** in the left navigation bar.
 
 <!--![Bluemix Application tile](/tutorials/jazzeditor/images/bm-app-panel_NEW.png) 
 Now that your app is running, you can see and modify the code by using DevOps Services.-->
@@ -73,7 +73,7 @@ Now that your app is running, you can see and modify the code by using DevOps Se
 
 You can work with your app's code in many ways. For example, with auto-deploy, you can modify the code that runs in your app by pushing your changes to a Git repository. You can auto-deploy your code if you use the Build & Deploy capabilities of DevOps Services.
 
-1. To enable auto-deploy, go to your app's Overview page on the Bluemix Dashboard and click **ADD GIT**. A Git repository is created and is populated with example code and a deployed app. You might be prompted to enter your password to verify that DevOps Services can act on your behalf. 
+1. To enable auto-deploy, go to your app's **Overview** page and click **Click here** in the Continuous Delivery box. A Git repository is created and is populated with example code and a deployed app. You might be prompted to enter your password to verify that DevOps Services can act on your behalf. 
 ![Add Git button](/tutorials/jazzeditor/images/bm-add-git-integration_NEW.png)
 
 2. Make sure that the **Populate the repo with the starter app package and enable the Build & Deploy pipeline** check box is selected.
@@ -81,7 +81,8 @@ You can work with your app's code in many ways. For example, with auto-deploy, y
 You created a Git repository, populated it with the example code, and deployed the app.
 ![Git repo success message dialog](/tutorials/jazzeditor/images/bm-git-repo-success-msg_NEW.png)
 
-3. Click the URL under your apps name to view the deployed app, or click **EDIT CODE** to start working with your code. Your new project opens in the web integrated development environment (Web IDE).  
+3. Click **View App** to the right of your apps name to view the deployed app, or click **EDIT CODE** at the bottom-right of the page to start working with your code. Your new project opens in the web integrated development environment (Web IDE).  
+![CODE button](images/view-running-app.png)
 ![CODE button](images/edit-code_view-url.png)
 
 
@@ -89,7 +90,7 @@ You created a Git repository, populated it with the example code, and deployed t
 
 <img class="inline"  src="images/key_info.png" alt="Key information icon">  For Node.js apps, you can edit static files, such as HTML or CSS, and immediately propagate the changes to the deployed app by using Bluemix Live Sync.
 
-1. Go to the app's Overview page in Bluemix and click **EDIT CODE**. When you clicked **ADD GIT**, that link was replaced by **EDIT CODE**. Your new project opens in the Web IDE.  
+1. Go to the app's Overview page in Bluemix and click **EDIT CODE** at the bottom-right of the page. When you clicked the link to add GIT, that link was replaced by **EDIT CODE**. Your new project opens in the Web IDE.  
 <!--![CODE button](/tutorials/jazzeditor/images/bm-code-button_NEW.png) -->
 
 2. In the Web IDE, enable Live Edit mode. You can now edit your code in the Web IDE and see the changes reflected in the running app.
